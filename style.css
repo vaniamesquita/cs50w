@@ -1,0 +1,126 @@
+nav {
+    text-align: right;
+    display: flex;
+    flex-flow: row-reverse;
+    text-decoration: none;
+ }
+
+nav a {
+    color: black;
+    margin: 20px;
+    text-decoration:none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    margin: 250px;
+    text-align: center;
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.search{
+    width:582px;
+    margin: 0 auto;
+    border:1px solid lightgray;
+    border-radius: 25px;
+    height: 50px;
+    font-size:16px;
+    align-content: center;
+
+}
+.search-bar{
+    width: 550px;
+    padding-top:15px; 
+    font-size:16px;
+    border:none;
+    margin-bottom:10px;
+    align-content: center;
+    
+}
+
+.btn-container{
+    margin-top:2%;
+}
+
+.search-btn{
+    height: 40px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    border-radius:3px;
+    font-size: 13px;
+    color: grey;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.bar {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.navegation {
+    background: #f1f1f1;
+}
+
+.main-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 700px auto;
+    column-gap: 10px;
+    row-gap:10px;
+    
+}
+label{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.second-label{
+    font-size:14px;
+    color:gray;
+    float: left;
+
+}
+
+.inp{
+    width: 90%;
+}
+.num-inp{
+    width: 41.5%;
+}
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+button[type="submit"]{
+    background-color: rgba(28, 28, 223, 0.774);
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:60%;
+    margin-top: 2%;
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+    
